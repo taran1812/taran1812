@@ -1,4 +1,3 @@
-## Hi there 👋
 <h1 align="center">Hi, I'm Sai Taran Patel Jaisimha 👋</h1>
 <h3 align="center">AI Engineer · Building RAG Systems, LLM Guardrails & Intelligent Agents</h3>
 
@@ -63,7 +62,21 @@
 - Fine-tuned DistilBERT classifiers: **83% decision accuracy** · **89.9% micro F1** risk detection
 - Detects: prompt injection · sensitive data exposure · unauthorized tool use · policy violations
 - Live demo + published models on 🤗 HuggingFace
+
+[![HuggingFace Models](https://img.shields.io/badge/🤗%20Models-agentguard--distilbert-yellow?style=flat-square)](https://huggingface.co/taran1812)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-AgentGuard%20Space-blue?style=flat-square)](https://huggingface.co/spaces/taran1812/AgentGuard)
+
 - Stack: `Python` `Transformers` `FastAPI` `Gradio` `pytest`
+
+---
+
+### 🔎 [Agentic Tool Researcher](https://github.com/taran1812/agenticToolResearcher)
+> LangGraph agent that researches developer tools from live web content and returns structured recommendations
+
+- Multi-step agent: searches articles → scrapes docs → extracts tools → generates typed Pydantic output
+- External services wrapped behind interfaces — live path uses OpenAI + Firecrawl; test/eval path runs fully mocked
+- Fixture-based evals verify agent behavior deterministically — no API keys required
+- Stack: `LangGraph` `OpenAI` `Firecrawl` `Pydantic v2` `pytest` `uv`
 
 ---
 
@@ -82,7 +95,7 @@
 
 ## 🌱 Currently Exploring
 - Advanced LLM evaluation frameworks (RAGAS, DeepEval)
-- Agentic systems with tool orchestration (LangGraph, CrewAI)
+- Multi-agent orchestration with CrewAI and LangGraph checkpointing
 - MLOps pipelines: model monitoring, drift detection, A/B serving
 - Cloud-native deployments: EKS, AKS, Helm charts
 
@@ -95,17 +108,3 @@
 | 💼 LinkedIn | [sai-jaisimha](https://linkedin.com/in/sai-jaisimha) |
 | 📧 Email | tarannz@gmail.com |
 | ✍️ Article | [The Fundamentals of DevOps](https://www.linkedin.com/in/sai-jaisimha/) |
-<!--
-**taran1812/taran1812** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
