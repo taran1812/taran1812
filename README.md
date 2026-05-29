@@ -95,9 +95,9 @@
 
 ## 🌱 Currently Exploring
 - Advanced LLM evaluation frameworks (RAGAS, DeepEval)
-- Multi-agent orchestration with CrewAI and LangGraph checkpointing
+- Multi-agent orchestration with CrewAI checkpointing
 - MLOps pipelines: model monitoring, drift detection, A/B serving
-- Cloud-native deployments: EKS, AKS, Helm charts
+- Cloud-native deployments: GKS, EKS, AKS, Helm charts
 
 ---
 
@@ -106,5 +106,5 @@
 |---|---|
 | 🤗 HuggingFace | [taran1812](https://huggingface.co/taran1812) |
 | 💼 LinkedIn | [sai-jaisimha](https://linkedin.com/in/sai-jaisimha) |
-| 📧 Email | tarannz@gmail.com |
+| 📧 Email | tarannms1812@gmail.com |
 | ✍️ Article | [The Fundamentals of DevOps](https://www.linkedin.com/in/sai-jaisimha/) |
