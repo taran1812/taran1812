@@ -63,10 +63,6 @@
 - Fine-tuned DistilBERT classifiers: **83% decision accuracy** · **89.9% micro F1** risk detection
 - Detects: prompt injection · sensitive data exposure · unauthorized tool use · policy violations
 - Live demo + published models on 🤗 HuggingFace
-
-[![HuggingFace Models](https://img.shields.io/badge/🤗%20Models-agentguard--distilbert-yellow?style=flat-square)](https://huggingface.co/taran1812)
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-AgentGuard%20Space-blue?style=flat-square)](https://huggingface.co/spaces/taran1812/AgentGuard)
-
 - Stack: `Python` `Transformers` `FastAPI` `Gradio` `pytest`
 
 ---
