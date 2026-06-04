@@ -77,27 +77,14 @@
 - External services wrapped behind interfaces — live path uses OpenAI + Firecrawl; test/eval path runs fully mocked
 - Fixture-based evals verify agent behavior deterministically — no API keys required
 - Stack: `LangGraph` `OpenAI` `Firecrawl` `Pydantic v2` `pytest` `uv`
-
+  
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taran1812&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taran1812&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=taran1812&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## 🌱 Currently Exploring
-- Advanced LLM evaluation frameworks (RAGAS, DeepEval)
-- Multi-agent orchestration with CrewAI checkpointing
-- MLOps pipelines: model monitoring, drift detection, A/B serving
-- Cloud-native deployments: GKS, EKS, AKS, Helm charts
+## 🔨 Currently Building
+- LLM Inference Reliability Observatory — 
+  GPU profiling + cluster failure analysis on RTX 3050
+- Eval harness framework extraction from Docifer → reusable PyPI package
+- Exploring vLLM deployment patterns and NVIDIA Triton inference optimization
 
 ---
 
