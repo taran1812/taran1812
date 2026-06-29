@@ -24,6 +24,9 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 **Frontend & Backend**  
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -56,6 +59,16 @@
 
 ---
 
+### 🚦 [NVIDIA Traffic Analysis — Real-Time Vehicle Detection](https://github.com/taran1812/nvidia.traffic_analysis)
+> GPU-accelerated traffic analytics pipeline on NVIDIA's inference stack
+
+- YOLOv8 vehicle detection/counting over MP4/RTSP streams via **DeepStream SDK**
+- **1.8× faster inference** vs PyTorch baseline · **44% latency reduction** — TensorRT FP16 on RTX 3050 Ti
+- Served through **Triton** with dynamic batching; FastAPI gateway returns JSON detections; Prometheus + Grafana GPU monitoring
+- Stack: `Python` `PyTorch` `ONNX` `TensorRT 10.3` `DeepStream` `Triton` `FastAPI` `Docker` `CUDA 12.8`
+
+---
+
 ### 🛡️ [AgentGuard — LLM Agent Safety Guardrails](https://github.com/taran1812/projectAgentGuard)
 > Policy-aware Transformer system controlling AI agent tool execution at runtime
 
@@ -77,14 +90,27 @@
 - External services wrapped behind interfaces — live path uses OpenAI + Firecrawl; test/eval path runs fully mocked
 - Fixture-based evals verify agent behavior deterministically — no API keys required
 - Stack: `LangGraph` `OpenAI` `Firecrawl` `Pydantic v2` `pytest` `uv`
-  
+
 ---
 
-## 🔨 Currently Building
-- LLM Inference Reliability Observatory — 
-  GPU profiling + cluster failure analysis on RTX 3050
-- Eval harness framework extraction from Docifer → reusable PyPI package
-- Exploring vLLM deployment patterns and NVIDIA Triton inference optimization
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taran1812&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taran1812&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=taran1812&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🌱 Currently Exploring
+- Advanced LLM evaluation frameworks (RAGAS, DeepEval)
+- Multi-agent orchestration with CrewAI and LangGraph checkpointing
+- MLOps pipelines: model monitoring, drift detection, A/B serving
+- Cloud-native deployments: EKS, AKS, Helm charts
 
 ---
 
@@ -93,5 +119,5 @@
 |---|---|
 | 🤗 HuggingFace | [taran1812](https://huggingface.co/taran1812) |
 | 💼 LinkedIn | [sai-jaisimha](https://linkedin.com/in/sai-jaisimha) |
-| 📧 Email | tarannms1812@gmail.com |
+| 📧 Email | tarannz@gmail.com |
 | ✍️ Article | [The Fundamentals of DevOps](https://www.linkedin.com/in/sai-jaisimha/) |
